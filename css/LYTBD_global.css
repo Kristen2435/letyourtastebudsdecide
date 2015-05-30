@@ -1,0 +1,493 @@
+
+/*------------------------------*\
+    Grid System
+\*------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+.clearfix:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.column-1 {
+    width: 6.86666666667%;
+}
+
+.column-2 {
+    width: 15.3333333333%;
+}
+
+.column-3 {
+    width: 23.8%;
+}
+
+.column-4 {
+    width: 32.2666666667%;
+}
+
+.column-5 {
+    width: 40.7333333333%;
+}
+
+.column-6 {
+    width: 49.2%;
+}
+
+.column-7 {
+    width: 57.6666666667%;
+}
+
+.column-8 {
+    width: 66.1333333333%;
+}
+
+.column-9 {
+    width: 74.6%;
+}
+
+.column-10 {
+    width: 83.0666666667%;
+}
+
+.column-11 {
+    width: 91.5333333333%;
+}
+
+.column-12 {
+    width: 100%;
+    margin-left: 0;
+}
+
+.column {
+    padding: 5px;
+    min-height: 30px;
+    float: left;
+} /* this float makes it possible to have multiple adjacent columns */
+
+.row {
+    margin-bottom: 10px;
+    clear: both;
+    overflow: auto;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+
+/* end of grid foundation */
+
+.cf {
+	overflow: auto;
+}
+
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Satisfy', cursive;
+	font-family: 'Arapey', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background: #FFF;
+	
+}
+
+.main {
+	margin-top: 0;
+	padding-top: 0;
+	overflow: auto;
+
+}
+
+.date {
+	font-size: .9em;
+  position: relative;
+  top: 8px;
+}
+
+.title a{
+	  color: white;
+  background: black;
+  text-decoration: none;
+  padding: 5px;
+  text-transform: lowercase;
+
+}
+
+.banner {     
+	background-image: url("../img/cuttingboard.jpg");   
+	background-position: center;  
+	background-size: cover;
+ 	height: 100vh;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+
+.wrapper {
+	max-width: 1280px;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.logo {
+	position: absolute;
+	width: 100%;
+
+}
+
+.logo h1 {
+	position: absolute;
+	top: 40px;
+	left: 120px;
+	color: white;
+	background: black;
+	padding: 10px;
+}
+.logo a{
+   content:url("../img/LYTBD-LOGO.png");
+    width: 80px;
+    height: 120px;
+   position: fixed; top: 20px; left: 20px; 
+}
+
+
+/* resize images */
+.logo img {
+    width: 100%;
+    height: auto;
+}
+ 
+
+
+.hamburger {
+    color: black;
+    text-decoration: none;
+    width:16.67%;
+    position: relative;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-align: right;
+}
+
+ul li {
+	float: left;
+	margin-left: 25px;
+	padding: 0;
+	text-align: right;
+	text-decoration: none;
+
+}
+
+header nav a {
+	float: left;
+	font-size: 1.25em;
+	color: white;
+	background: black;
+	padding: 10px 0;
+	text-align: center;
+	margin-left: 25px;
+	text-decoration: none;
+}
+
+.boxed{
+
+	background-color: black;
+	height: 75px;
+	width: 200px;
+	padding: 17px;
+	text-align: center;
+	margin-left: 55px;
+	border-radius: 3px;
+}
+
+.boxed a, .boxed a:visited{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Arapey';
+	text-transform: lowercase;
+
+}
+
+nav ul{
+	width: 40%;
+	margin: 0 auto;
+	display: block;
+}
+
+.social-container {
+	width: 50px;
+  	position: absolute;
+  	position: fixed; top: 10px;right: 25px;; 
+}
+
+.social {
+
+    width: 50px;
+    height: 50px;
+    float: right;
+    display: block;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+/* resize images */
+.social img {
+    width: 100%;
+    height: auto;
+
+}
+
+img {
+	display: block;
+	margin: 10px 0;
+	max-width: 100%;
+}
+
+.center-content{
+  overflow: auto;
+  position: relative;
+  top: 35%;
+}
+
+
+
+.blog{
+	
+	background-color: black;
+	height: 120px;
+	border-bottom: 3px;
+	margin: 0 !important;
+	padding: 0 !important;
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Arapey';
+	text-transform: lowercase;
+}
+
+.teaser {
+	float: left;
+	width: 66.66667%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 5px;
+	margin-top: 
+}
+
+.contact {
+	float: left;
+		margin-right: 20%;
+		margin-left: 20%;
+}
+footer {
+	clear: both;
+	color: #BBB;
+	background-color: black;
+	height: 80px;
+	border-bottom: 3px;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Arapey';
+	text-transform: lowercase;
+}
+
+footer p{
+	margin-left: 40%;
+	margin-top: 40%;
+
+}
+
+a:hover {
+	color: #A00;
+}
+
+
+
+h1 {
+	font-size: 2.5em;
+	font-weight: normal;
+	font-family: 'Arapey', italic;
+	padding: 0;
+	margin: 0;
+	color: #000000;
+}
+
+
+h2 {
+	font-size: 2em;
+	font-weight: normal;
+	color: white;
+	padding: 0;
+}
+h2 a {
+	color: inherit;
+}
+h2 a:hover {
+	color: #ffffff;
+}
+.blog h2 {
+	margin-top: 0;
+	padding-top: 20px;
+	margin-left: 20%;
+}
+
+article h2 {
+	color: black;
+	margin: 0;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: normal;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 1.5em 0 0;
+	padding: 0;
+}
+p.more {
+	font-weight: bold;
+	text-align: right;
+}
+
+img {
+	display: inline;
+	margin: 10px 0;
+
+}
+
+
+header h1 {
+	display: inline;
+	margin-right: .5em;
+}
+header h2 {
+	display: inline;
+	font-size: 1.5em;
+	margin-bottom: .5em;
+	color: #000000;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	float: left;
+	width: 16.66667%;
+	margin: 0;
+	padding: 0;
+}
+header nav a {
+	display: block;
+	font-size: 1.25em;
+	color: white;
+	background: black;
+	margin-right: 1px;
+	padding: 15px 0;
+	text-align: center;
+}
+header nav a:hover {
+	color: white;
+	background: #ffffff;
+}
+
+article {
+	border-bottom: 1px solid #DDD;
+	margin: 1em 0;
+	padding-bottom: 1.5em;
+	margin-left: 10px;
+}
+article p:first-of-type:first-letter {
+	float: left;
+	font-size: 6em;
+	line-height: 1;
+	color: #DDD;
+	margin: -.1em .1em 0 -.1em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.module {
+	border-bottom: 1px solid #DDD;
+	padding: 1.5em 0;
+}
+.module:last-of-type {
+	border: none;
+}
+
+
+.ad img {
+	margin: auto;
+}
+
+.about-us-content{
+	height:315px;
+	overflow-y:scroll;
+}
+
+.mobile-only {
+	display: none;
+}
+
+.teaser p {
+	margin-top: .5em;
+}
+
+.teaser img {
+	float: left;
+  margin-right: 40px;
+}
+
+/* Mobile Styles */
+@media screen and (max-width:800px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: inline-block;
+    }
+
+    nav {
+        text-align: right;
+    }
+
+
+
+footer {
+	background: black;
+	color: white;
+	padding: 2% 3%;
+	margin-left: 40%;
+	margin-top: 40%;
+}
+
+}
