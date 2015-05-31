@@ -11,7 +11,7 @@
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Oswald:400,700|Merriweather+Sans-serif:400,700,800'>
 	<link href='http://fonts.googleapis.com/css?family=Arapey:400italic,400|Satisfy' rel='stylesheet' type='text/css'>
 	<!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
-
+<link rel="stylesheet" type="text/css" media="screen" href="css/pureform.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="css/LYTBD_global.css">
 	
 
@@ -32,13 +32,13 @@
         <nav class="center-content">
 				
   	<ul>
-		<li class="boxed"><a class="button1" href="#recipies">Recipies &amp; Reviews</a></li>
+		<li class="boxed"><a class="button1" href="#recipes">Recipes &amp; Reviews</a></li>
 		
 		<li class="boxed"><a lass="button2" href="#about">About &amp; Contact</a></li>
 	</ul>
 		</nav>
 
-<div class="social-container">
+<div class="social-container desktop-only">
 	<a href="https://twitter.com/" target="_blank" class="social"> <img src="img/twitter-circle.png" /></a>
 	<a href="https://www.pinterest.com/" target="_blank" class="social"> <img src="img/pinterest-logo.png" /></a>
 	<a href="https://instagram.com/" target="_blank" class="social"> <img src="img/instagram-xxl.png" /></a>
@@ -47,13 +47,13 @@
     </section>
 
 
-<section class="main" name="recipies">
-	<div class="blog"><h2>recipies &amp; reviews </h2></div>
+<section class="main" name="recipes">
+	<div class="blog"><h2>recipes &amp; reviews </h2></div>
 
 <article class="teaser">
 		<div class="date"><b>5/30/15</b></div>
 		<h1 class="title"><a href="#">urban gardening</a></h1>
-		<img src="img/welcometowangari.png" alt="Blog Post #3" width="200px" height="auto">
+		<img src="img/WelcometoWangari.png" alt="Blog Post #3" width="200px" height="auto">
 		<p>Cray culpa stumptown, flexitarian ex Odd Future do fugiat Wes Anderson proident 3 wolf moon officia bitters small batch. Et consequat do, nulla you probably haven’t heard of them High Life scenester. Vinyl fugiat High Life, kogi do VHS in aliqua lo-fi leggings gentrify Neutra tumblr. Odio vegan PBR, Marfa forage blue bottle try-hard readymade meggings retro delectus Echo Park. Ugh consectetur farm-to-table forage, laboris blue bottle McSweeney’s tattooed excepteur yr.Officia pickled beard, adipisicing gluten-free sint craft beer quis thundercats id 3 wolf moon fashion axe.</p>
 		<div class="more-link"><a href="#">Continues...</a></div>
 	</article>
@@ -93,29 +93,29 @@ Landjaeger picanha filet mignon, rump ham hock strip steak tail ground round sal
 <h1 class="title"><a href="#">Contact me</a></h1>
 
 
-<form action="register.php" method="post" enctype="multipart/form-data">
+<form class="pure-form pure-form-stacked" accept-charset="UTF-8" action="https://formkeep.com/f/cd3ce8a8b6ce" method="POST">
+<fieldset>
+<label for="email">name</label>
+<input type="text" name="name" placeholder="Your Name">
 
-<div class="contact2">
-<label for="fullName">Your Name</label>
-<input type="text" name="fullName" id="fullName" placeholder="Full Name">
-</div>
+<label for="email">email</label>
+<input type="email" name="email" placeholder="Your Email">
 
-<div>
-	<label for="email">eMail</label>
-	<input type="email" name="email" id="email" placeholder="eMail" x-moz-errormessage="This is not a valid e-mail">
-</div>
-<label for="textbox"> Your message</label>
-<input type="textbox" name="textbox" id="textbox">
-<textbox multiline="true"
-         value="This is some text that could wrap onto multiple lines."/>
-<div>
-<input type="checkbox" name="chk" value="" checked> YES! Sign me up to recieve recipes and reviews in your inbox weekly.
-</div>
+<label for="email">enter your emssage here</label>
+<input type="text-area" name="message" placeholder="Your Message">
 
-<input type="submit" value="Submit">
+<label for="email"><input type="hidden" name="Newsletter" value="no">
+<input type="checkbox" name="Newsletter" value="yes">yes! sign me up to receive weekly recipes.
 
+</label>
 
+  
+  <input type="hidden" name="utf8" value="✓">
+  <button type="submit">Submit</button>
+
+</fieldset>
 </form>
+
 </article>
 </div>
 </section>
