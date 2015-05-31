@@ -221,7 +221,7 @@ header nav a {
 .boxed a, .boxed a:visited{
 	text-decoration: none;
 	color: white;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 400;
 	font-family: 'Arapey';
 	text-transform: lowercase;
@@ -266,7 +266,7 @@ img {
 .center-content{
   overflow: auto;
   position: relative;
-  top: 35%;
+  top: 45%;
 }
 
 
@@ -299,11 +299,32 @@ img {
 		margin-right: 20%;
 		margin-left: 20%;
 }
+
+.contact p {
+	float: right;
+}
+
+.contact2 {
+	    float: left;
+		margin-right: 20%;
+		margin-top: 20px;
+		overflow: auto;
+		position: relative;
+
+}
+
+.form {
+	float: left;
+		margin-right: 20%;
+		margin-left: 20%;
+		margin-top: 20px;
+}
+
 footer {
 	clear: both;
 	color: #BBB;
 	background-color: black;
-	height: 80px;
+	height: 90px;
 	border-bottom: 3px;
 	margin: 0;
 	padding: 0;
@@ -315,16 +336,17 @@ footer {
 }
 
 footer p{
-	margin-left: 40%;
-	margin-top: 40%;
 
+	margin-top: 10%;
+	font-size: 1.5em;
+	
+text-align: center;
 }
 
 a:hover {
-	color: #A00;
+	color: white;
 }
-
-
+ 
 
 h1 {
 	font-size: 2.5em;
@@ -337,21 +359,24 @@ h1 {
 
 
 h2 {
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: normal;
 	color: white;
 	padding: 0;
+	margin-top: 0 !important;
+	padding-top: 20px !important;
+	margin-left: 20% !important;
 }
 h2 a {
 	color: inherit;
+	font-size: 3em;
 }
-h2 a:hover {
-	color: #ffffff;
+
 }
 .blog h2 {
-	margin-top: 0;
-	padding-top: 20px;
-	margin-left: 20%;
+	margin-top: 0 !important;
+	padding-top: 20px !important;
+	margin-left: 20% !important;
 }
 
 article h2 {
@@ -374,6 +399,7 @@ p {
 p.more {
 	font-weight: bold;
 	text-align: right;
+	color: white;
 }
 
 img {
@@ -382,7 +408,10 @@ img {
 
 }
 
-
+.more-link a{
+	color: green;
+	hover: green;
+}
 header h1 {
 	display: inline;
 	margin-right: .5em;
@@ -485,7 +514,7 @@ article p:first-of-type:first-letter {
 footer {
 	background: black;
 	color: white;
-	padding: 2% 3%;
+	padding: 20%;
 	margin-left: 40%;
 	margin-top: 40%;
 }
