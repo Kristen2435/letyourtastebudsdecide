@@ -292,7 +292,11 @@ img {
 	margin-right: 20%;
 	margin-left: 20%;
 	margin-bottom: 5px;
-	margin-top: 
+	margin-top: 20px;
+}
+
+.more-link {
+	padding-bottom: 20px;
 }
 
 .contact {
@@ -308,7 +312,7 @@ img {
 .contact2 {
 	    float: left;
 		margin-right: 20%;
-		margin-top: 20px;
+		margin-top: 40px;
 		overflow: auto;
 		position: relative;
 
@@ -487,6 +491,12 @@ article p:first-of-type:first-letter {
 	display: none;
 }
 
+.teaser {
+	margin-top: 60px !important;
+	margin-bottom: 60px !important;
+	
+}
+
 .teaser p {
 	margin-top: .5em;
 }
@@ -494,6 +504,12 @@ article p:first-of-type:first-letter {
 .teaser img {
 	float: left;
   margin-right: 40px;
+}
+
+.contact {
+	margin-top: 60px !important;
+		margin-bottom: 60px !important;
+
 }
 
 .pure-form input {
